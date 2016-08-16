@@ -20,6 +20,7 @@ namespace WindowsFormsApplication1
         private void button1_Click(object sender, EventArgs e)
         {
             button1.Text = "Text Changed";
+            button1.BackColor = Color.Red;
         }
     }
 }
